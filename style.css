@@ -1,0 +1,245 @@
+img {
+    max-width: 100%;
+}
+
+.main-bg {
+    background-color: #f7f9ff;
+}
+.our-header a {
+    font-weight: 600;
+}
+.our-header span {
+    color: #be4bdb;
+    font-size: 23px;
+}
+
+/* about-section  */
+.about-left {
+	margin-top: 130px;
+}
+.about-section{
+    background-color:#f7f9ff;
+}
+.about-section .card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(86, 95, 133, 0.1);
+}
+.about-me {
+    margin-top: 30px;
+}
+
+.about-image {
+	margin-top: 50px;
+}
+
+/* pricing */
+.pricing {
+    background-color: #8490ff;
+    padding: 70px 0;
+    color: #fff;
+}
+.p-itmes h2 {
+    font-weight: 700;
+}
+
+/* another-tables */
+
+.tables-itmes {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(128, 140, 196, 0.1);
+    padding: 20px;
+    transition: 0.4s;
+}
+.tables-itmes:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(128, 140, 196, 0.3);
+    transition: 0.4s;
+}
+.tables-itmes p {
+    color: #777;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.another-btn a {
+    font-weight: 600;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(128, 140, 196, 0.2);
+    padding: 10px 20px;
+    margin-top: 25px !important;
+}
+
+/* team-section */
+.card-body {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(128, 140, 196, 0.2);
+    transition: 0.4s;
+}
+.card-body:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(128, 140, 196, 0.4);
+    transition: 0.4s;
+}
+.card-body img {
+    width: 85px;
+    position: relative;
+    top: -40px;
+    left: -60px;
+}
+.card-body h5 {
+    font-weight: 600;
+    font-size: 24px;
+}
+.card-body a {
+    border: none;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(128, 140, 196, 0.4);
+}
+
+/* contact-section */
+.contact-right {
+    margin-top: 30px;
+}
+.contact-right h4 {
+    font-weight: 600;
+}
+.contact-right p {
+    font-weight: 600;
+}
+
+/* footer  */
+.footer {
+    background-color: #04091e;
+    padding: 20px;
+    color: #fff;
+}
+.footer p {
+    margin-bottom: 0;
+}
+
+
+
+/* Responsive css */
+
+@media(max-width:1200px){
+    .tables-itmes p {
+        font-size: 18px;
+    }
+    .card-body h5 {
+        font-size: 22px;
+    }
+    .card-body p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:992px){
+    .about-left {
+        margin-top: 55px;
+    }
+
+    .about-left h5 {
+        margin-bottom: 0 !important;
+        font-size: 18px;
+    }
+    .about-left h1 {
+        margin-bottom: 5px !important;
+        font-size: 30px;
+    }
+    .about-left p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+
+    .about-me p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .about-me h1 {
+        font-size: 20px;
+        margin-top: 9px;
+    }
+    .about-me h5 {
+        font-size: 14px;
+    }
+
+    .tables-itmes p {
+        font-size: 12px;
+    }
+
+    .tables-itmes h6 {
+        font-size: 15px;
+    }
+    .card-body h5 {
+        font-size: 14px;
+    }
+    .card-body h6 {
+        font-size: 12px;
+    }
+    .card-body p {
+        font-size: 10px;
+    }
+    .contact-right p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:768px){
+    .about-left {
+        margin-top: 39px;
+    }
+    .about-left h5 {
+        margin-bottom: 7px !important;
+        font-size: 13px;
+    }
+    .about-left h1 {
+        margin-bottom: 8px !important;
+        font-size: 20px;
+    }
+    .about-left p {
+        font-size: 11px;
+        line-height: 18px;
+        margin-bottom: 0;
+    }
+    
+    .about-me p {
+        font-size: 9px;
+        line-height: 15px;
+    }
+    .about-me h1 {
+        font-size: 15px;
+        margin-top: 4px;
+    }
+    .about-me h5 {
+        font-size: 11px;
+    }
+
+    .tables-itmes h6 {
+        font-size: 9px;
+    }
+    .tables-itmes h5 {
+        font-size: 15px;
+    }
+    .tables-itmes h2 {
+        font-size: 30px;
+        margin-bottom: 15px !important;
+    }
+    .tables-itmes h6 {
+        font-size: 9px;
+        margin-bottom: 25px !important;
+    }
+    .another-btn a {
+        padding: 8px 15px;
+        font-size: 11px;
+    }
+    .mb-5 {
+        margin-bottom: 23px !important;
+        font-size: 20px;
+    }
+
+    .card-body {
+        margin-bottom: 50px;
+    }
+    .contact-right {
+        margin-top: 80px;
+    }
+    .contact-right p {
+        font-size: 11px;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+}
